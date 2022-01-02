@@ -1,13 +1,6 @@
-import "./index.css";
+// import "./index.css";
 
-class MyLibrary {
-  constructor() {
-    console.log("Library constructor loaded");
-  }
+import bloggrs  from "./bloggrs-client";
 
-  myMethod = () => {
-    console.log("Library method fired");
-  };
-}
 
-export default MyLibrary;
+export default bloggrs;
